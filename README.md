@@ -49,7 +49,7 @@ mmc_graph = mmc.most_modular_cluster(graph,cost_function)
 The user should specify the cost function to be used by the algorithm. Some of the available cost functions are:
 |  function | description                                                   |
 |:---------:|---------------------------------------------------------------|
-| `default` | default cost as described in (manuscript)                     |
+| `default` | colorful cluster editing cost as described in (manuscript)    |
 |   `norm`  | default cost divided by the size of candidate set             |
 |   `sqrt`  | default cost divided by the square root of candidate set size |
 |   `half`  | default cost divided by half of the candidate set size        |
